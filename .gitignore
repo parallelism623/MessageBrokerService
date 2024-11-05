@@ -1,0 +1,122 @@
+# Binaries
+bin/
+obj/
+[Bb]uild/
+[Bb]uild[Ll]ogs/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# OSX files
+.DS_Store
+
+# Application Insights
+ApplicationInsights.config
+ApplicationInsights*.config
+
+# Azure App Service
+.azure/
+
+# Log files
+*.log
+
+# NuGet
+*.nupkg
+# Uncomment if necessary to check in build artifacts
+# /[Bb]uild/[Rr]eleases/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# JetBrains Rider
+.idea/
+
+# Others
+*.sql
+*.csv
+*.pdb
+*.cache
+*.pfx
+*.publish.xml
+
+# Web development
+client/node_modules/
+client/dist/
+client/build/
+
+# Python
+__pycache__/
+
+# Others
+*.bak
+*.swp
+*.db
+*.sqlite
+
+# Publish artifacts
+publish/
+wwwroot/
+logs/
+wwwroot/
+wwwroot_uploads/
+
+# Local History
+.localhistory/
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Database backups
+*.bak
+*.sql
+
+# Resharper files
+_ReSharper*/
+
+# Rider
+.idea/
+*.sln.iml
+
+# DotNet Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+backup/
+.env
+.env.*
+
+# macOS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+*.vs

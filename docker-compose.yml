@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  rabbitmqservices:
+    image: ${DOCKER_REGISTRY-}rabbitmqservices
+    build:
+      context: .
+      dockerfile: RabbitMqServices/Dockerfile
+  rabbitmq:
+    image: rabbitmq:3.8-management
+
+volumes:
+  rabbitmq_data:
